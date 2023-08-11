@@ -1,0 +1,30 @@
+# Procedure
+
+- ***Before starting the process read the instructions completely***
+- Press ***Start*** button to start the experiment procedure.
+- Select the ***Non-Destructive Testing*** method of your choice.
+- If **Ultrasonic Testing** is selected.
+    - Observe the **Transmission pulse flow** in the Workpiece
+    - Observe the Transmission pulse flow in the ***Ultrasonic Device Monitor***
+    - Press ***Next*** button to go for next Case
+    - Repeat the steps again by clicking ***Restart***
+- If ***Dye Penetrant Testing*** is selected.
+    - Observe the **Welded Workpiece**
+    - Press ***Next*** button to go for next step
+    - Click on ***Penetrant Bottle*** to go for next step
+    - Observe the ***applying Penetrant*** on Welded Workpiece
+    - Click on ***Cleaner/Remover Bottle*** to go for next step
+    - Observe the ***applying Cleaner/Remover Bottle*** on Welded Workpiece
+    - Click on ***Developer Bottle*** to go for next step
+    - Observe the applying ***Developer Bottle*** on Welded Workpiece and ***Crack Indication***
+    - Repeat the steps again by clicking ***Restart***
+- If ***Magnetic Particle Testing (MPT)*** is selected.
+    - If ***MPT (without Crack)*** is selected
+        - Press ***Next*** button to go for next step
+        - Observe the flow of ***Magnitic field lines*** on Welded Workpiece
+        - Repeat the steps again by clicking ***Restart***
+    - If ***MPT (with Crack)*** is selected
+        - Press ***Next*** button to go for next step
+        - Observe the flow of ***Magnitic field lines*** on Welded Workpiece
+        - Repeat the steps again by clicking ***Restart***
+- Repeat the experiment with different ***Non-Destructive Testing*** method
