@@ -9,7 +9,7 @@
         "c": "Hardness test",
         "d": "Tensile test"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"Your are Wrong, Option \"b\" is correct answer",
         "b":"You are right",
         "c":"Your are Wrong, Option \"b\" is correct answer",
@@ -24,7 +24,7 @@
         "a": "True",
         "b": "False"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"You are right",
         "b":"Your are Wrong, Option \"a\" is correct answer"
       },
@@ -39,7 +39,7 @@
         "c": "Ultrasonic testing",
         "d": "Dye penetrant testing"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"Your are Wrong, Option \"c\" is correct answer",
         "b":"Your are Wrong, Option \"c\" is correct answer",
         "c":"You are right",
@@ -56,7 +56,7 @@
         "c": "Acoustic emission test",
         "d": "Magnetic particle test"
       }, 
-      "explainations":{ 
+      "explanations":{ 
         "a":"Your are Wrong, Option \"b\" is correct answer",
         "b":"You are right",
         "c":"Your are Wrong, Option \"b\" is correct answer",
@@ -73,7 +73,7 @@
         "c": "Cobalt,Nickel",
         "d": "Silver,Gold"
       },
-      "explainations":{ 
+      "explanations":{ 
         "a":"Your are Wrong, Option \"c\" is correct answer",
         "b":"Your are Wrong, Option \"c\" is correct answer",
         "c":"You are right",
