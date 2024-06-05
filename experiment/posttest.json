@@ -9,6 +9,12 @@
         "c": "Bernoulli's law",
         "d": "Boyle\"s law"
       },
+      "explainations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -19,6 +25,12 @@
         "b": "Red",
         "c": "White",
         "d": "Pink"
+      },
+      "explainations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -31,6 +43,12 @@
         "c": "Radiography testing",
         "d": "Magnetic particle testing"
       },
+      "explainations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
@@ -41,6 +59,12 @@
         "b": "20KHz-50KHz",
         "c": "500 KHz–20 MHz",
         "d": "100KHZ-10MHz"
+      },
+      "explainations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
@@ -53,6 +77,12 @@
         "c": "Lipophilic post-emulsifiable",
         "d": "Water washable"
       },
+      "explainations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
@@ -64,10 +94,16 @@
         "c": "Dipping",
         "d": "Pouring"
       },
+      "explainations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
       "correctAnswer": "d",
       "difficulty": "beginner"
     },
-{
+    {
       "question": "In medical research, which non-destructive testing is widely used?",
       "answers": {
         "a": "Radiography testing",
@@ -75,14 +111,24 @@
         "c": "Acoustic emission testing",
         "d": "Eddy current testing"
       },
+      "explainations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
-{
+    {
       "question": "In magnetic particle testing after magnetisation of specimen, iron particles are applied on the magnetised specimen?",
       "answers": {
         "a": "True",
         "b": "False"
+      },
+      "explainations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
