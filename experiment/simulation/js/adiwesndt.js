@@ -35,6 +35,7 @@ function adindt(a){
     $("#UT").hide();
     $("#DT").hide();
     $("#MT").hide();
+    $("#RT").hide();
     $("#adinxt").hide();
     $("#UTnxt").hide();
     DTsq=0;
@@ -44,10 +45,12 @@ function adindt(a){
   else if(a==1){
     DTsq=0; 
     MTsq=0;
+    RTsq=0;
     adit=1;
     $("#UT").show();
     $("#DT").hide();
     $("#MT").hide();
+    $("#RT").hide();
     $("#adinxt").hide();
 
       MTc1=0;
@@ -167,6 +170,7 @@ $('#p2').css({ "position": 'relative',
       p12.hide('none',{duration:0});
       p34.hide('none',{duration:0});
       DTsq=0;
+      RTsq=0;
     MTsq=0;
     UTca=0;
     }
@@ -174,6 +178,7 @@ $('#p2').css({ "position": 'relative',
       $("#UT").hide();
     $("#MT").hide();
     $("#DT").show();
+    $("#RT").hide();
     DTsq=1;
     $("#adinxt").hide();
       $("#adime").html("<div> <img class=\"img img-fluid\" src=\"./images/wrkp.png\" alt=\"Initial Setup\"> <br> <span class=\"h4\"> Welded Workpiece </span></div>");
@@ -231,6 +236,7 @@ $('#p2').css({ "position": 'relative',
     $("#UT").hide();
     $("#DT").hide();
     $("#MT").show();
+    $("#RT").hide();
     if(MTsq==1){
       MTc2=0;
       $("#MTim").html("<br>ADITYA 1<br>");
@@ -271,6 +277,34 @@ $('#p2').css({ "position": 'relative',
     });
   }
   }
+  }
+  else if(a==4){
+    if(adit==1){
+      p12.hide('none',{duration:0});
+      p34.hide('none',{duration:0});
+      DTsq=0;
+      MTsq=0;
+      UTca=0;
+      RTsq=0;
+    }
+    $("#UT").hide();
+    $("#DT").hide();
+    $("#MT").hide();
+    $("#RT").show();
+    if(RTsq==1){
+      $("#RTim").html("<div> <video id=\"adivid\" autoplay>  <source src=\"./images/XRWld.mp4\" type=\"video/mp4\"> </video></div>");
+      $("#adivid").width('100%');
+      $("#adivid").on("ended",function(){
+          $("#MTim").html("");
+      });
+    }
+    else if(RTsq==2){
+      $("#RTim").html("<div> <video id=\"adivid\" autoplay>  <source src=\"./images/XRWrk.mp4\" type=\"video/mp4\"> </video></div>");
+      $("#adivid").width('100%');
+      $("#adivid").on("ended",function(){
+          $("#MTim").html("");
+      });
+    }
   }
 };
 

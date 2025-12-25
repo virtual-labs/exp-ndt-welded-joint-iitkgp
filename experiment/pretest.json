@@ -9,6 +9,12 @@
         "c": "Hardness test",
         "d": "Tensile test"
       },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
@@ -17,6 +23,10 @@
       "answers": {
         "a": "True",
         "b": "False"
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
@@ -29,6 +39,12 @@
         "c": "Ultrasonic testing",
         "d": "Dye penetrant testing"
       },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
       "correctAnswer": "c",
       "difficulty": "beginner"
     },
@@ -39,6 +55,12 @@
         "b": "Hardness test",
         "c": "Acoustic emission test",
         "d": "Magnetic particle test"
+      }, 
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
@@ -50,6 +72,12 @@
         "b": "Copper,Zinc",
         "c": "Cobalt,Nickel",
         "d": "Silver,Gold"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
