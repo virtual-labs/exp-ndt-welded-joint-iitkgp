@@ -66,7 +66,7 @@ LinkedIn: https://in.linkedin.com/in/akraonandula/
               <li class="h5 text-secondary"> Before starting the process read the instructions completely</li>
               <li>Press <b> Start</b> button to start the experiment procedure.</li>
               <li>Select the <b> Non-Destructive Testing </b> method of your choice.</li>
-              <li><b>Note: for change of selection, click on <b>Stop</b> button and selecet the next NDT method </b></li>
+              <li><b>Note: for change of selection, click on <b>Stop</b> button and select the next NDT method </b></li>
               <li>If </b>Ultrasonic Testing</b> is selected.</li>
                 <ul>
                   <li>Observe the Transmission pulse flow in the <b> Workpiece</b></li>
@@ -91,13 +91,13 @@ LinkedIn: https://in.linkedin.com/in/akraonandula/
                   <li>If <b>MPT (without Crack)</b> is selected </li>
                     <ul>
                       <li>Press <b>Next</b> button to go for next step </li>
-                      <li>Observe the flow of <b>Magnitic field lines</b> on <b>Welded Workpiece</b> </li>
+                      <li>Observe the flow of <b>Magnetic field lines</b> on <b>Welded Workpiece</b> </li>
                       <li>Repeat the steps again by clicking <b>Restart</b></li>
                     </ul>
                   <li>If <b>MPT (with Crack)</b> is selected</li>
                   <ul>
                     <li>Press <b>Next</b> button to go for next step </li>
-                    <li>Observe the flow of <b>Magnitic field lines</b> on <b>Welded Workpiece</b> </li>
+                    <li>Observe the flow of <b>Magnetic field lines</b> on <b>Welded Workpiece</b> </li>
                     <li>Repeat the steps again by clicking <b>Restart</b></li>
                   </ul>
                 </ul>
@@ -131,24 +131,23 @@ LinkedIn: https://in.linkedin.com/in/akraonandula/
                         <div class="col border border-3 border-primary rounded rounded-pill nav-link" data-bs-toggle="pill" onclick="adindt(1);"> Ultrasonic Testing</div> &nbsp; &nbsp; &nbsp;
                         <div class="col border border-3 border-primary rounded rounded-pill nav-link" data-bs-toggle="pill" onclick="adindt(2);"> Dye Penetrant Testing </div> &nbsp; &nbsp; &nbsp;
                         <div class="col border border-3 border-primary rounded rounded-pill nav-link" data-bs-toggle="pill" onclick="adindt(3);"> Magnetic Particle Testing</div> &nbsp; &nbsp; &nbsp;
+                        <div class="col border border-3 border-primary rounded rounded-pill nav-link" data-bs-toggle="pill" onclick="adindt(4);"> Radiography Test </div> &nbsp; &nbsp; &nbsp;
                       </div>
                     
                     </div>
                     
                     <div  id="UT" class="container text-center p-3">
-                      <div class="row p-3">
-                        <div class="col-md-6 border border-3 border-primary">
-                          <div id="UTim"></div>
+                        <div class="row p-3">
+                          <div class="col-md-6 border border-3 border-primary">
+                            <div id="UTim"></div>
+                          </div>
+                          <div class="col-md-6 border border-3 border-primary">
+                            <div id="my" ></div>
+                            <div id="UTnxt"></div>
+                          </div>
                         </div>
-                        <div class="col-md-6 border border-3 border-primary">
-                          
-                          
-                          <div id="my" ></div>
-                          <div id="UTnxt"></div>
-                        </div>
-                      </div>
-                      </div>
                     </div>
+                    
                     
                     <div id="DT"  class="container text-center p-3" >
                       <div class="row p-3">
@@ -159,7 +158,6 @@ LinkedIn: https://in.linkedin.com/in/akraonandula/
                                 <div id="adime"></div>
                               </div>
                               <div class="col-md-3 p-5">
-                                
                                 <div id="adinxt"></div>
                               </div>
                             </div>
@@ -176,7 +174,7 @@ LinkedIn: https://in.linkedin.com/in/akraonandula/
                             <div class="col border border-3 border-primary rounded rounded-pill nav-link" data-bs-toggle="pill" onclick="MTsq=1;adindt(3);"> MPT (without Crack)</div> &nbsp; &nbsp; &nbsp;
                             <div class="col border border-3 border-primary rounded rounded-pill nav-link" data-bs-toggle="pill" onclick="MTsq=2;adindt(3);"> MPT (with Crack)</div> &nbsp; &nbsp; &nbsp;  
                           </div>
-                        </div>
+                          </div>
                           <div class="row">
                             <div class="col-md-9"> <div id="MTim"></div> </div>
                             
@@ -187,6 +185,25 @@ LinkedIn: https://in.linkedin.com/in/akraonandula/
                         </div>
                       </div>
                     </div>
+
+                    <div id="RT" class="container text-center p-3">
+                      <div class="row">
+                        <div class="col">
+                          <div id="RTs" class="text-center p-3 nav nav-pills nav-justified"> 
+                            <div class="row nav-item">
+                            <div class="col border border-3 border-primary rounded rounded-pill nav-link" data-bs-toggle="pill" onclick="RTsq=1;adindt(4);">  Radiography Test of Sample Workpiece</div> &nbsp; &nbsp; &nbsp;
+                            <div class="col border border-3 border-primary rounded rounded-pill nav-link" data-bs-toggle="pill" onclick="RTsq=2;adindt(4);"> Radiography Test of Weld with Defect</div> &nbsp; &nbsp; &nbsp;  
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <div id="RTim"></div>
+                        </div>
+                      </div>
+                    </div>
+
                 </div>
             </div>
           </div>
