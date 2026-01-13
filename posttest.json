@@ -1,0 +1,140 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "On which principle does Dye penetrant test works",
+      "answers": {
+        "a": "Charles law",
+        "b": "Capillary action",
+        "c": "Bernoulli's law",
+        "d": "Boyle\"s law"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the developer's color used in Dye penetrant test?",
+      "answers": {
+        "a": "Green",
+        "b": "Red",
+        "c": "White",
+        "d": "Pink"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+  {
+      "question": "Flux leakage field is observed in which Non-destrutive testing method?",
+      "answers": {
+        "a": "Ultrasonic testing",
+        "b": "Acoustic emission testing",
+        "c": "Radiography testing",
+        "d": "Magnetic particle testing"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+{
+      "question": "What is the frequency range used in Ultrasonic testing?",
+      "answers": {
+        "a": "20Hz-20KHz",
+        "b": "20KHz-50KHz",
+        "c": "500 KHz–20 MHz",
+        "d": "100KHZ-10MHz"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"c\" is correct answer",
+        "b":"Your are Wrong, Option \"c\" is correct answer",
+        "c":"You are right",
+        "d":"Your are Wrong, Option \"c\" is correct answer"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Which of the following is not a type of penetrant in Dye penetrant test?",
+      "answers": {
+        "a": "Lipophilic pre-emulsifiable",
+        "b": "Solvent removable",
+        "c": "Lipophilic post-emulsifiable",
+        "d": "Water washable"
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer",
+        "c":"Your are Wrong, Option \"a\" is correct answer",
+        "d":"Your are Wrong, Option \"a\" is correct answer"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+{
+      "question": "Which of the following is not a correct way of applying the developer to the specimen surface in  dye penetrant test?",
+      "answers": {
+        "a": "Sprinkling",
+        "b": "Dusting",
+        "c": "Dipping",
+        "d": "Pouring"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"d\" is correct answer",
+        "b":"Your are Wrong, Option \"d\" is correct answer",
+        "c":"Your are Wrong, Option \"d\" is correct answer",
+        "d":"You are right"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In medical research, which non-destructive testing is widely used?",
+      "answers": {
+        "a": "Radiography testing",
+        "b": "Ultrasonic testing",
+        "c": "Acoustic emission testing",
+        "d": "Eddy current testing"
+      },
+      "explanations":{ 
+        "a":"Your are Wrong, Option \"b\" is correct answer",
+        "b":"You are right",
+        "c":"Your are Wrong, Option \"b\" is correct answer",
+        "d":"Your are Wrong, Option \"b\" is correct answer"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In magnetic particle testing after magnetisation of specimen, iron particles are applied on the magnetised specimen?",
+      "answers": {
+        "a": "True",
+        "b": "False"
+      },
+      "explanations":{ 
+        "a":"You are right",
+        "b":"Your are Wrong, Option \"a\" is correct answer"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+]
+
+}
+
+
