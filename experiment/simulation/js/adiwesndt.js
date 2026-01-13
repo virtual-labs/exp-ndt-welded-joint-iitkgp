@@ -292,14 +292,14 @@ $('#p2').css({ "position": 'relative',
     $("#MT").hide();
     $("#RT").show();
     if(RTsq==1){
-      $("#RTim").html("<div> <video id=\"adivid\" autoplay>  <source src=\"./images/XRWld.mp4\" type=\"video/mp4\"> </video></div>");
+      $("#RTim").html("<div> <video id=\"adivid\" autoplay>  <source src=\"./images/XRWrk.mp4\" type=\"video/mp4\"> </video></div>");
       $("#adivid").width('100%');
       $("#adivid").on("ended",function(){
           $("#MTim").html("");
       });
     }
     else if(RTsq==2){
-      $("#RTim").html("<div> <video id=\"adivid\" autoplay>  <source src=\"./images/XRWrk.mp4\" type=\"video/mp4\"> </video></div>");
+      $("#RTim").html("<div> <video id=\"adivid\" autoplay>  <source src=\"./images/XRWld.mp4\" type=\"video/mp4\"> </video></div>");
       $("#adivid").width('100%');
       $("#adivid").on("ended",function(){
           $("#MTim").html("");
