@@ -40,15 +40,17 @@ The important steps to undergo the dye penetrant test are shown in Figure 1 belo
 </center>
 
  
-
+Penetrants used in dye penetrant test are classified into two types fluorescent and visible. Fluorescent penetrants contain a dye that emits visible light, when it exposes to ultraviolet or visible light. Visible penetrants contain a red dye that provides high contrast when white developer is applied on background. Fluorescent penetrant systems are more sensitive than visible penetrant, because eye will catch the attention due to the glow of fluorescing indication. However, visible penetrants do not require darkened area or ultraviolet light.
 ## Characteristics of Penetrant:
-  
   Penetrants of the dye penetrant should have the following properties:
-
-1.	Visibility should be high for showing indications.
-2.	Flowability should be high to flow easily on the surface.
+1.	Visibility should be high for clear indication.
+2.	Flowability should be high to flow easily on the surface cracks.
 3.	It cannot be hazardous.
 4.	It should be drawn back easily after applying developer.
+
+Developers used in dye penetrant test will be applied on the test specimen to draw trapped liquid penetrant out of surface-breaking defects, and the making the defect visible. Developers are classified into different types like dry powder developers, water-soluble developers and water suspendable developers. Dry sand developers are fine absorbent powders like talc or chalk that are applied on the dry surface. They are easy to apply manually and suitable for visible and fluorescent penetrants. Water soluble developers are applied as an aqueous solution, and they will form a thin layer after drying. They are less sensitive for visible penetrant. Water suspendable developers contain developer particles that do not dissolve in water. Because of these particles will tend to settle at the bottom, so the mixture needs to be constantly agitated during use to maintain proper suspension. When it is applied and dried it will form a thick layer compared to water-soluble developers giving good sensitivity with visible and fluorescent penetrants.
+Cleaners used in dye penetrant test are classified into different types solvent cleaners, aqueous (water-based) cleaners, post-emulsifiable cleaners. Solvent based cleaners uses a solvent cleaner applied with a cloth to remove the excess penetrant. It is mostly used for solvent-removable penetrants. Water-based cleaners are used for water-washable penetrants and involves rinsing the workpiece with water. In post-emulsifiable cleaners, emulsifier is applied to the surface before rinsing. The emulsifier makes the penetrant miscible with water, allowing for a complete removal during the rinsing step. Emulsifiers can be either lipophilic (oil-based) or hydrophilic (water-based).
+
 
 
 ## Ultrasonic Testing:
@@ -126,3 +128,28 @@ Steps for magnetic particle inspection:
 2.	Fractures and defects close to the surface generate a leakage field.
 3.	Iron particulates in wet or dry suspension are applied to the magnetised component's surface after magnetisation. 
 4.	Particles are attracted to flux leakage fields, where they will agglomerate and produce a visual signal that the inspector can detect.
+
+## Radiography testing:
+Radiography testing uses X-rays (or) gamma rays to detect the defects inside the test-specimens. In this the test-specimen is positioned between the radiation source and the film (or detector). 
+### Principle of Radiography:
+Radiographic testing operates on the principle of differential absorption: penetrating X-rays or gamma rays pass through a test specimen, with denser regions absorbing more radiation and less dense areas (such as defects and voids) absorbing less, thereby producing a shadow film on the detector that indicates internal defects as variations in darkness (lighter/darker regions). Figure 6. shows the working principle of radiographic testing.
+
+
+<center>
+<img src="./images/Fig.6.png" style="width:50%">
+
+#### Figure 6. Working principle of Radiography testing
+</center>
+
+
+
+### Radiation Sources
+Two distinct radioactive sources are available for radiography in the industrial sector: X-rays and gamma rays. These radiation sources utilise higher energy levels, specifically shorter wavelength variants of electromagnetic waves. Due to the radioactivity associated with radiography testing, it is essential to strictly comply with the local rules during operation.
+
+There are different types of RT techniques, which includes conventional radiography and digital radiography. Each operates with small variations and have some different advantages and disadvantages.
+
+
+### Conventional Radiography:
+Conventional Radiography uses a sensitive film that responds to the emitted radiation to capture an image of the specimen that needs to be tested. This image can be further analysed for the signature of defects. The primary drawback of this method is it takes significant amount of time to process and analyse.
+### Digital Radiography:
+Digital radiography is an advanced X-ray imaging technique that uses electronic detectors to capture images. It will convert X-ray energy directly into digital data for immediate viewing, storage and analysis on a computer replacing a film or detector. This technique requires less time, so that the images can be analyzed very quickly. It has better quality images compared to conventional radiographic images.
